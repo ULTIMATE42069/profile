@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Arjun - B.Tech CSE AI & ML student portfolio showcasing skills, education, projects, certificates, and contact information.">
+  <title>Arjun | AI & ML Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a href="#home" class="brand" aria-label="Arjun home">
+        <span class="brand-mark">A</span>
+        <span>Arjun</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="nav-panel" id="navPanel">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certificates" class="nav-link">Certificates</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Hi, I am <span>Arjun</span></h1>
+        <h2><span id="typedText"></span><span class="typing-cursor" aria-hidden="true"></span></h2>
+        <p class="hero-intro">
+          Passionate about Artificial Intelligence, Machine Learning, Programming, and Software Development.
+          I enjoy building innovative projects and continuously learning new technologies.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            <i class="fa-solid fa-paper-plane"></i>
+            Contact Me
+          </a>
+          <a href="#projects" class="btn btn-secondary">
+            <i class="fa-solid fa-code"></i>
+            View Projects
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-card glass-card reveal">
+        <div class="profile-orbit">
+          <div class="profile-avatar">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+        </div>
+        <div class="quick-stats">
+          <div>
+            <strong>AI & ML</strong>
+            <span>Specialization</span>
+          </div>
+          <div>
+            <strong>10+</strong>
+            <span>Core Skills</span>
+          </div>
+          <div>
+            <strong>3</strong>
+            <span>Projects</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>Curious, focused, and building with purpose.</h2>
+      </div>
+      <div class="about-grid">
+        <article class="glass-card about-card reveal">
+          <div class="about-card-top">
+            <span class="about-badge"><i class="fa-solid fa-location-dot"></i> REVA University</span>
+            <span class="about-badge"><i class="fa-solid fa-code"></i> CSE AI & ML</span>
+          </div>
+          <p>
+            Arjun is a Computer Science Engineering student specializing in Artificial Intelligence and Machine
+            Learning at REVA University. He is interested in AI, programming, problem solving, web development,
+            and software engineering, with a strong focus on writing clean code and building practical solutions.
+            He enjoys exploring new technologies, strengthening his fundamentals, and turning ideas into polished,
+            useful digital experiences.
+          </p>
+          <p>
+            His current focus is on improving his programming logic, understanding real-world machine learning
+            workflows, and building portfolio projects that combine usability, performance, and thoughtful design.
+            He is especially motivated by projects where technology can simplify everyday work and create clear
+            value for users.
+          </p>
+          <div class="about-focus-list" aria-label="Areas of focus">
+            <span>AI Projects</span>
+            <span>Clean Code</span>
+            <span>Web Interfaces</span>
+            <span>Database Logic</span>
+          </div>
+        </article>
+        <div class="about-highlights reveal">
+          <div class="highlight-card glass-card">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>B.Tech CSE</span>
+          </div>
+          <div class="highlight-card glass-card">
+            <i class="fa-solid fa-microchip"></i>
+            <span>AI & ML</span>
+          </div>
+          <div class="highlight-card glass-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span>Software Development</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Technologies and strengths I work with.</h2>
+      </div>
+      <div class="card-grid skills-grid">
+        <article class="skill-card glass-card reveal"><i class="fa-solid fa-c"></i><h3>C Programming</h3></article>
+        <article class="skill-card glass-card reveal"><i class="fa-brands fa-python"></i><h3>Python</h3></article>
+        <article class="skill-card glass-card reveal"><i class="fa-solid fa-database"></i><h3>SQL</h3></article>
+        <article class="skill-card glass-card reveal"><i class="fa-brands fa-html5"></i><h3>HTML</h3></article>
+        <article class="skill-card glass-card reveal"><i class="fa-brands fa-css3-alt"></i><h3>CSS</h3></article>
+        <article class="skill-card glass-card reveal"><i class="fa-brands fa-js"></i><h3>JavaScript</h3></article>
+        <article class="skill-card glass-card reveal"><i class="fa-solid fa-robot"></i><h3>Artificial Intelligence</h3></article>
+        <article class="skill-card glass-card reveal"><i class="fa-solid fa-chart-line"></i><h3>Machine Learning</h3></article>
+        <article class="skill-card glass-card reveal"><i class="fa-brands fa-github"></i><h3>Git & GitHub</h3></article>
+        <article class="skill-card glass-card reveal"><i class="fa-solid fa-lightbulb"></i><h3>Problem Solving</h3></article>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Education</p>
+        <h2>Academic foundation.</h2>
+      </div>
+      <div class="education-layout">
+        <article class="glass-card education-card reveal">
+          <i class="fa-solid fa-building-columns"></i>
+          <div>
+            <h3>REVA University</h3>
+            <p>Bachelor of Technology</p>
+            <span>Computer Science Engineering (Artificial Intelligence & Machine Learning)</span>
+          </div>
+        </article>
+
+        <article class="glass-card cgpa-card reveal">
+          <h3>CGPA</h3>
+          <div class="cgpa-list">
+            <div><span>Semester 1</span><strong>8.4</strong></div>
+            <div><span>Semester 2</span><strong>8.3</strong></div>
+            <div><span>Semester 3</span><strong>8.2</strong></div>
+            <div><span>Semester 4</span><strong>8.5</strong></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected practical work.</h2>
+      </div>
+      <div class="card-grid project-grid">
+        <article class="project-card glass-card reveal">
+          <div class="project-icon"><i class="fa-solid fa-faucet-drip"></i></div>
+          <h3>Bathroom Fittings Website</h3>
+          <p>A responsive product-focused website concept for showcasing bathroom fittings with clean navigation and modern visuals.</p>
+          <a href="#" class="card-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+        <article class="project-card glass-card reveal">
+          <div class="project-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>OTP Verification System</h3>
+          <p>A verification workflow project designed to validate one-time passwords and improve account access security.</p>
+          <a href="https://otp-woad-kappa.vercel.app/" target="_blank" rel="noreferrer" class="card-link">View Website <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+        <article class="project-card glass-card reveal">
+          <div class="project-icon"><i class="fa-solid fa-address-card"></i></div>
+          <h3>Student Portfolio Website</h3>
+          <p>A personal portfolio website for presenting student details, skills, academic progress, and project work online.</p>
+          <a href="#" class="card-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+        <article class="project-card glass-card reveal">
+          <div class="project-icon"><i class="fa-solid fa-file-lines"></i></div>
+          <h3>AI Resume Builder</h3>
+          <p>An AI-assisted resume builder concept that helps users create structured, professional resumes with smart content suggestions.</p>
+          <a href="#" class="card-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+        <article class="project-card glass-card reveal">
+          <div class="project-icon"><i class="fa-solid fa-seedling"></i></div>
+          <h3>Agri Connect</h3>
+          <p>A digital platform concept designed to connect farmers, buyers, and agricultural resources through a simple web experience.</p>
+          <a href="https://agriconnect-plum.vercel.app" target="_blank" rel="noreferrer" class="card-link">View Website <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="certificates">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Certificates</p>
+        <h2>Learning milestones.</h2>
+      </div>
+      <div class="card-grid certificate-grid">
+        <article class="certificate-card glass-card reveal"><i class="fa-brands fa-python"></i><span>Python Programming</span></article>
+        <article class="certificate-card glass-card reveal"><i class="fa-solid fa-c"></i><span>C Programming</span></article>
+        <article class="certificate-card glass-card reveal"><i class="fa-solid fa-brain"></i><span>AI Fundamentals</span></article>
+        <article class="certificate-card glass-card reveal"><i class="fa-solid fa-globe"></i><span>Web Development</span></article>
+        <article class="certificate-card glass-card reveal"><i class="fa-solid fa-chart-line"></i><span>Machine Learning Basics</span></article>
+        <article class="certificate-card glass-card reveal"><i class="fa-brands fa-github"></i><span>Git & GitHub</span></article>
+        <article class="certificate-card glass-card reveal"><i class="fa-solid fa-database"></i><span>Database Design</span></article>
+        <article class="certificate-card glass-card reveal"><i class="fa-solid fa-wand-magic-sparkles"></i><span>Prompt Engineering</span></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let us connect.</h2>
+      </div>
+      <div class="contact-grid">
+        <a href="mailto:adithyaarjun31@gmail.com" class="contact-card glass-card reveal">
+          <i class="fa-solid fa-envelope"></i>
+          <div><span>Email</span><strong>adithyaarjun31@gmail.com</strong></div>
+        </a>
+        <a href="tel:+919148521999" class="contact-card glass-card reveal">
+          <i class="fa-solid fa-phone"></i>
+          <div><span>Phone</span><strong>+91 9148521999</strong></div>
+        </a>
+        <a href="https://www.linkedin.com/in/arjun-adithya-m-v13" target="_blank" rel="noreferrer" class="contact-card glass-card reveal">
+          <i class="fa-brands fa-linkedin"></i>
+          <div><span>LinkedIn</span><strong>linkedin.com/in/arjun-adithya-m-v13</strong></div>
+        </a>
+        <a href="https://github.com/ULTIMATE42069" target="_blank" rel="noreferrer" class="contact-card glass-card reveal">
+          <i class="fa-brands fa-github"></i>
+          <div><span>GitHub</span><strong>github.com/ULTIMATE42069</strong></div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Arjun. All Rights Reserved.</p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
